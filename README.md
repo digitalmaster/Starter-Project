@@ -3,8 +3,6 @@ Swift 3.0 Standard Project Template
 
 A standard project meant to help jumpstart any new Swift applications. Includes a number of common and/or useful dependencies. Updates will continue as dependencies improve/change. Feel free to propose any additions or thoughts. A linter is included to ensure all projects are kept up to code standards. 
 
-Feel free to comment out
-
 ----------
 ### Table of contents
 
@@ -23,6 +21,8 @@ Within the terminal, navigate to the project directory holding Podfile. Type com
 ```
 pod install
 ```
+If you find that build times are very slow - you may want to comment out some pods that you arent using.
+
 
 #### 2. Open Xcode Workspace
 
