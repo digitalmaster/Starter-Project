@@ -11,7 +11,10 @@ target 'Starter-Project' do
     pod 'SwiftIconFont'
     pod 'Kingfisher', '~> 3.0'
     pod 'Motion', '~> 1.0'
-    
+    pod 'PromiseKit', '~> 4.0'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'Answers'
 end
 
 post_install do |installer|
