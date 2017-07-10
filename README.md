@@ -40,14 +40,23 @@ After you have installed the included pods, and opened a workspace, add a new ru
 ```
 Hint: Building project often will help catch linter mistakes more frequently, and allow for more consistent code.
 
-#### 4. Dummy
+#### 4. Download and Install Fabric Mac App
 
-After you have installed the included pods, and opened a workspace, add a new run build phase script to the project. Add the following script to run swiftlint upon project build.
+***Ensure no one else has already paired the application/project with a Fabric App*
 
-```bash
-"${PODS_ROOT}/SwiftLint/swiftlint"
-```
-Hint: Building project often will help catch linter mistakes more frequently, and allow for more consistent code.
+The Fabric Mac App will allow attachment of the application to the Fabric, Answers, and Crashlytics libraries, and their respective Web interfaces.
+
+Fabric.io
+
+#### 5. Run Fabric App and Follow Steps to Install Answers and Crashlytics
+
+***If step 4 is skipped, skip step 5*
+
+When installing the application, follow the onscreen instructions to create a new Fabric account, and install Answers and Crashlytics. Fabric will be included automatically.
+
+This step should also include adding a Run Build Script Phase, check to ensure that this script has not already been added to the project.
+
+Hint: The steps will include adding pods to the podfile. These have already been added and this step may be skipped.
 
 ----------
 
@@ -71,6 +80,9 @@ All pods added have been confirmed to have sufficient documentation and are curr
  - SwiftIconFont
  - Kingfisher
  - Motion
+ - Fabric
+ - Answers
+ - Crashlytics
 
 
 #### **[Material](https://github.com/CosmicMind/Material)**
