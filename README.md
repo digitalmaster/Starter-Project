@@ -113,9 +113,17 @@ Kingfisher is a lightweight, pure-Swift library for downloading and caching imag
 
 A library used to create beautiful animations and transitions for views, layers, and view controllers. http://cosmicmind.com. Motion is a tool used to create transition animations between view controllers. A strong animation framework when required, and works very well with Material. Other animation frameworks exist, so be aware when adding other animation dependencies.
 
-#### **Dummy**
+#### **[PromiseKit](https://github.com/mxcl/PromiseKit)**
 
-You can save any document by opening the <i class="icon-refresh"></i> **Synchronize** sub-menu and by clicking **Save on...**. Even if your document is already synchronized with **Google Drive** or **Dropbox**, you can export it to a another location. StackEdit can synchronize one document with multiple locations and accounts.
+Promises simplify asynchronous programming, freeing you up to focus on the more important things. They are easy to learn, easy to master and result in clearer, more readable code. Allows for checking completion of async process, and run a callback or completion on finish. Greatly simplifies chaining of events and methods.
+
+#### **[Fabric](https://get.fabric.io/)**
+
+Fabric is a platform that helps your mobile team build better apps, understand your users, and grow apps. Fabric acts as a framework to use the following products (also included as pods):
+
+- [Answers](https://answers.io/) - Part of Google Fabric, Answers is real-time mobile analytics that you don't need to analyze. It was created to make understanding your user base incredibly simple -- so you can spend your time building amazing experiences in your product, not digging through data.
+
+- [Crashlytics](http://try.crashlytics.com/) - Part of Google Fabric, Crashlytics offers the most powerful, yet lightest weight crash reporting solution for iOS. Crashlytics also provides real-time analytics through Answers and app distributions to testers using Beta.
 
 
 ----------
