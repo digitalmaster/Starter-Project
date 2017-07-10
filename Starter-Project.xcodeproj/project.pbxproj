@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C354BD75B5BCF3AEA8F3DEAE /* Pods_Starter_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BEE92B6756D24E2196AFDB /* Pods_Starter_Project.framework */; };
 		D20A70371F12F654006F9721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20A70361F12F654006F9721 /* AppDelegate.swift */; };
 		D20A70391F12F654006F9721 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20A70381F12F654006F9721 /* FirstViewController.swift */; };
 		D20A703B1F12F654006F9721 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20A703A1F12F654006F9721 /* SecondViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F88786A381A7AD2543463C7 /* Pods-Starter-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starter-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Starter-Project/Pods-Starter-Project.release.xcconfig"; sourceTree = "<group>"; };
+		B5BEE92B6756D24E2196AFDB /* Pods_Starter_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starter_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20A70331F12F654006F9721 /* Starter-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Starter-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20A70361F12F654006F9721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D20A70381F12F654006F9721 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		D20A70541F12F655006F9721 /* Starter-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starter-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20A70581F12F655006F9721 /* Starter_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter_ProjectUITests.swift; sourceTree = "<group>"; };
 		D20A705A1F12F655006F9721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E75F283151F66D032FE2BC /* Pods-Starter-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starter-Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Starter-Project/Pods-Starter-Project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C354BD75B5BCF3AEA8F3DEAE /* Pods_Starter_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9890BEEEA9A1432F3BE06572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5BEE92B6756D24E2196AFDB /* Pods_Starter_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B814ED3802BC4ADD029595B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0E75F283151F66D032FE2BC /* Pods-Starter-Project.debug.xcconfig */,
+				6F88786A381A7AD2543463C7 /* Pods-Starter-Project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D20A702A1F12F654006F9721 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				D20A704C1F12F655006F9721 /* Starter-ProjectTests */,
 				D20A70571F12F655006F9721 /* Starter-ProjectUITests */,
 				D20A70341F12F654006F9721 /* Products */,
+				B814ED3802BC4ADD029595B9 /* Pods */,
+				9890BEEEA9A1432F3BE06572 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +159,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D20A705D1F12F655006F9721 /* Build configuration list for PBXNativeTarget "Starter-Project" */;
 			buildPhases = (
+				88ECF7415365A83805AF7B60 /* [CP] Check Pods Manifest.lock */,
 				D20A702F1F12F654006F9721 /* Sources */,
 				D20A70301F12F654006F9721 /* Frameworks */,
 				D20A70311F12F654006F9721 /* Resources */,
+				D6282003CFE772542A58746E /* [CP] Embed Pods Frameworks */,
+				47C9185A9E9B0CFF244B0472 /* [CP] Copy Pods Resources */,
+				D20A71161F12FD6D006F9721 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -259,6 +287,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47C9185A9E9B0CFF244B0472 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Starter-Project/Pods-Starter-Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88ECF7415365A83805AF7B60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D20A71161F12FD6D006F9721 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		D6282003CFE772542A58746E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Starter-Project/Pods-Starter-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D20A702F1F12F654006F9721 /* Sources */ = {
@@ -417,6 +506,7 @@
 		};
 		D20A705E1F12F655006F9721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E75F283151F66D032FE2BC /* Pods-Starter-Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K4KLK9Y555;
@@ -430,6 +520,7 @@
 		};
 		D20A705F1F12F655006F9721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F88786A381A7AD2543463C7 /* Pods-Starter-Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K4KLK9Y555;
@@ -518,6 +609,7 @@
 				D20A705F1F12F655006F9721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D20A70601F12F655006F9721 /* Build configuration list for PBXNativeTarget "Starter-ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +618,7 @@
 				D20A70621F12F655006F9721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D20A70631F12F655006F9721 /* Build configuration list for PBXNativeTarget "Starter-ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +627,7 @@
 				D20A70651F12F655006F9721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
