@@ -58,6 +58,9 @@ This step should also include adding a Run Build Script Phase, check to ensure t
 
 Hint: The steps will include adding pods to the podfile. These have already been added and this step may be skipped.
 
+Rename Project with the following instructions:
+https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode-project-i-e-inclusive-of-folders
+
 ----------
 
 
