@@ -14,7 +14,6 @@ target 'Starter-Project' do
     pod 'PromiseKit', '~> 4.0'
     pod 'Fabric'
     pod 'Crashlytics'
-    pod 'Answers'
 end
 
 post_install do |installer|
