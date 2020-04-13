@@ -1,0 +1,11 @@
+version: 2.1
+orbs:
+  slack: circleci/slack@x.y.z
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - run: exit 0
+      - slack/status:
+          only_for_branches: 'master'
