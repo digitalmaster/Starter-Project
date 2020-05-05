@@ -1,5 +1,5 @@
 jobs:
-  version: 2.1
+  version: 2.2
   build:
     docker:
       - image: circleci/node:10
