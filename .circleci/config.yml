@@ -1,4 +1,4 @@
-jobzz:
+jobs:
   build:
     docker:
       - image: circleci/node:10
