@@ -1,15 +1,8 @@
 version: 2.1
 jobs:
-  build-and-test:
-    executor:
-      name: circleci/node:10
+  build:
+    docker:
+      - image: 'circleci/node:10'
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: npm install
-            - run: npm test
-workflows:
-    build-and-test:
-      jobs:
-        - build-and-test
+      - run: echo 'hello world'
